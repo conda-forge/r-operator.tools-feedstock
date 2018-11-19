@@ -14,9 +14,9 @@ source:
   sha256: e5b74018fb75bfa02820dec4b822312f1640422f01d9fec1b58d880ffb798dec
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -42,8 +42,7 @@ about:
     function, and inverting  some operators (e.g. comparison operators), etc. All methods
     can be extended to custom infix operators. '
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
