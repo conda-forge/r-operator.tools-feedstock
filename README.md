@@ -1,11 +1,11 @@
-About r-operator.tools
-======================
+About r-operator.tools-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-operator.tools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/decisionpatterns/operator.tools
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-operator.tools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a collection of utilities that allow programming with  R's operators. Routines allow classifying operators,  translating to and from an operator and its underlying function, and inverting  some operators (e.g. comparison operators), etc. All methods can be extended to custom infix operators. 
 
