@@ -1,6 +1,5 @@
 {% set version = '1.6.3' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-operator.tools
@@ -13,8 +12,7 @@ source:
   sha256: e5b74018fb75bfa02820dec4b822312f1640422f01d9fec1b58d880ffb798dec
 
 build:
-  merge_build_host: True  # [win]
-  number: 1005
+  number: 1006
   noarch: generic
   rpaths:
     - lib/R/lib/
